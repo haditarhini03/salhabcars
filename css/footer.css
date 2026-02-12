@@ -1,0 +1,17 @@
+.site-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #f0a500;
+}
+
+.site-footer a {
+    color: #f0a500;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}

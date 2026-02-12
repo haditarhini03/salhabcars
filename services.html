@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title_services">Salhab Cars - Services</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+    <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+        <h1 data-i18n="title_services_page">Our Services</h1>
+
+        <div class="services-list">
+            <!-- Trade Service -->
+            <div class="service-card" data-id="trade">
+                <h3 data-i18n="service_trade">Trade</h3>
+                <p data-i18n="service_trade_short">We trade Lebanese and imported cars</p>
+            </div>
+
+            <!-- Repair Service -->
+            <div class="service-card" data-id="repair">
+                <h3 data-i18n="service_repair">Repair</h3>
+                <p data-i18n="service_repair_short">Garage: حدادة و بويا و فرن رش السيارات</p>
+            </div>
+
+            <!-- Auction Service -->
+            <div class="service-card" data-id="auction">
+                <h3 data-i18n="service_auction">Auction</h3>
+                <p data-i18n="service_auction_short">Give us the auction link, we will ship it to you</p>
+            </div>
+        </div>
+
+    <!-- Modal -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="service-modal-body"></div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="/js/services.js"></script>
+    <script type="module" src="/js/cars.js"></script>
+</body>
+</html>

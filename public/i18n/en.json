@@ -1,0 +1,23 @@
+{
+  "title": "Salhab Cars",
+  "title_services": "Salhab Cars - Services",
+  "nav_home": "Home",
+  "nav_services": "Services",
+  "nav_contact": "Contact",
+  "price": "Price",
+  "year": "Year",
+  "mileage": "Mileage",
+  "transmission": "Transmission",
+  "fuel": "Fuel",
+  "brand": "Brand",
+  "model": "Model",
+  "view_auction": "View on Auction",
+  "footer_text": "© 2026 Salhab Cars. All rights reserved.",
+  "title_services_page": "Our Services",
+    "service_trade": "Trade",
+    "service_trade_short": "We trade Lebanese and imported cars",
+    "service_repair": "Repair",
+    "service_repair_short": "Garage: حدادة و بويا و فرن رش السيارات",
+    "service_auction": "Auction",
+    "service_auction_short": "Give us the auction link, we will ship it to you"
+}

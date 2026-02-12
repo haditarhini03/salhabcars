@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title": {
+        "en": "Toyota Corolla 2020",
+        "ar": "تويوتا كورولا 2020"
+        },
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "mileage": 15000,
+        "transmission": "Automatic",
+        "fuel": "Gasoline",
+        "price": 18000,
+        "auctionUrl": "https://auction.com/car/123",
+        "images": [
+        "/assets/images/cars/corolla1.jpg",
+        "/assets/images/cars/corolla2.jpg"
+        ],
+        "description": {
+        "en": "A reliable sedan in excellent condition.",
+        "ar": "سيارة سيدان موثوقة في حالة ممتازة."
+        },
+        "specs": {
+        "color": "White",
+        "doors": 4,
+        "seats": 5
+        },
+        "status": "available", 
+        "featured": true,
+        "source": "auction"  
+    },
+    {
+        "id": 2,
+        "title": {
+        "en": "BMW X5 2018",
+        "ar": "بي إم دبليو X5 2018"
+        },
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2018,
+        "mileage": 35000,
+        "transmission": "Automatic",
+        "fuel": "Diesel",
+        "price": 35000,
+        "auctionUrl": null,
+        "images": [
+        "/assets/images/cars/bmw1.jpg",
+        "/assets/images/cars/bmw2.jpg"
+        ],
+        "description": {
+        "en": "Luxury SUV, well maintained.",
+        "ar": "سيارة SUV فاخرة، صيانتها ممتازة."
+        },
+        "specs": {
+        "color": "Black",
+        "doors": 4,
+        "seats": 5
+        },
+        "status": "available",
+        "featured": false,
+        "source": "local"
+    }
+]

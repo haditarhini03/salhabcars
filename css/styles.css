@@ -1,0 +1,156 @@
+/* ------------------ Car Listing ------------------ */
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Individual car card */
+.car-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Car image */
+.car-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Car info */
+.car-card h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.car-card p {
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* ------------------ Modal ------------------ */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-content ul li {
+    margin: 5px 0;
+}
+
+/* Close button */
+.modal .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .close:hover {
+    color: #f00;
+}
+
+/* Modal images */
+.modal-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
+
+.modal-images img {
+    height: 150px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* ------------------ RTL Support ------------------ */
+html[lang="ar"] .car-list {
+    direction: rtl;
+}
+
+html[lang="ar"] .modal-content {
+    direction: rtl;
+}
+
+html[lang="ar"] .modal .close {
+    right: auto;
+    left: 15px;
+}
+/* ------------------ Services Page ------------------ */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #555;
+}
+
