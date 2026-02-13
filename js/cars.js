@@ -7,10 +7,12 @@ const modal = document.getElementById('car-modal');
 const modalBody = document.getElementById('modal-body');
 const modalClose = modal ? modal.querySelector('.close') : null;
 
+const BASE = import.meta.env.BASE_URL || '/';
+
 async function loadCars() {
     if (!carListContainer) return; // Skip if car list doesn't exist on this page
     
-    const res = await fetch('./data/cars.json');
+    const res = await fetch(`${BASE}data/cars.json`);
     const cars = await res.json();
 
     carListContainer.innerHTML = cars

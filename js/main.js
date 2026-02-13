@@ -1,6 +1,8 @@
 import { loadCars } from './cars.js';
 import { initTranslations } from './translation.js';
 
+const BASE = import.meta.env.BASE_URL || '/';
+
 // Load header and footer
 export async function loadComponent(id, url) {
     const el = document.getElementById(id);
@@ -25,8 +27,8 @@ export async function loadComponent(id, url) {
 async function init() {
     console.log('Initializing...');
     try {
-        await loadComponent('header-placeholder', 'components/header.html');
-        await loadComponent('footer-placeholder', 'components/footer.html');
+        await loadComponent('header-placeholder', `${BASE}components/header.html`);
+        await loadComponent('footer-placeholder', `${BASE}components/footer.html`);
         await initTranslations(); 
         await loadCars();
         console.log('Initialization complete');

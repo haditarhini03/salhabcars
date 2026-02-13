@@ -2,8 +2,10 @@ let translations = {};
 let currentLang = 'en'; // default language
 
 // Load a JSON translation file
+const BASE = import.meta.env.BASE_URL || '/';
+
 async function loadTranslations(lang) {
-    const res = await fetch(`i18n/${lang}.json`);
+    const res = await fetch(`${BASE}i18n/${lang}.json`);
     if (!res.ok) throw new Error(`Translation file ${lang}.json not found`);
     const data = await res.json();
     return data;
