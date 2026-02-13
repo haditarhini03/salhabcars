@@ -14,8 +14,8 @@
         "price": 18000,
         "auctionUrl": "https://auction.com/car/123",
         "images": [
-        "assets/images/cars/1/corolla1.png",
-        "assets/images/cars/1/corolla2.png"
+        "./assets/images/cars/1/corolla1.png",
+        "./assets/images/cars/1/corolla2.png"
         ],
         "description": {
         "en": "A reliable sedan in excellent condition.",
@@ -45,8 +45,8 @@
         "price": 35000,
         "auctionUrl": null,
         "images": [
-        "assets/images/cars/2/x5_1.png",
-        "assets/images/cars/2/x5_2.png"
+        "./assets/images/cars/2/x5_1.png",
+        "./assets/images/cars/2/x5_2.png"
         ],
         "description": {
         "en": "Luxury SUV, well maintained.",
