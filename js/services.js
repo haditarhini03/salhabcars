@@ -9,6 +9,7 @@ const modalClose = modal ? modal.querySelector('.close') : null;
 const servicesData = {
     trade: {
         title: { en: "Trade", ar: "تجارة" },
+        image: "/assets/images/ui/image1.png",
         description: {
             en: "We trade Lebanese and imported cars.",
             ar: "نقوم بتجارة السيارات اللبنانية والمستوردة."
@@ -17,6 +18,7 @@ const servicesData = {
     },
     repair: {
         title: { en: "Repair", ar: "تصليح" },
+        image: "/assets/images/ui/image.png",
         description: {
             en: "Garage: حدادة و بويا و فرن رش السيارات",
             ar: "الورشة: حدادة و بويا و فرن رش السيارات"
@@ -25,6 +27,7 @@ const servicesData = {
     },
     auction: {
         title: { en: "Auction", ar: "مزاد" },
+        image: "/assets/images/ui/auction.png",
         description: {
             en: "Give us the auction link and we will ship it to you.",
             ar: "أعطنا رابط المزاد وسنقوم بشحن السيارة لك."
