@@ -3,7 +3,7 @@ let currentLang = 'en'; // default language
 
 // Load a JSON translation file
 async function loadTranslations(lang) {
-    const res = await fetch(`/i18n/${lang}.json`);
+    const res = await fetch(`i18n/${lang}.json`);
     if (!res.ok) throw new Error(`Translation file ${lang}.json not found`);
     const data = await res.json();
     return data;
