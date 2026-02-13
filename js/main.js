@@ -25,8 +25,8 @@ export async function loadComponent(id, url) {
 async function init() {
     console.log('Initializing...');
     try {
-        await loadComponent('header-placeholder', '/components/header.html');
-        await loadComponent('footer-placeholder', '/components/footer.html');
+        await loadComponent('header-placeholder', 'public/components/header.html');
+        await loadComponent('footer-placeholder', 'public/components/footer.html');
         await initTranslations(); 
         await loadCars();
         console.log('Initialization complete');
